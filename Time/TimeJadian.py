@@ -1,6 +1,8 @@
 import os, sys, time, datetime
 from datetime import date
-os.system('clear') #linux
+from clear import clear
+
+clear()
 
 # Assignment
 tgljadi = date(2017,4,22)

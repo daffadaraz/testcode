@@ -1,6 +1,8 @@
 import os, sys, time,datetime
 from datetime import date
-os.system('clear')
+from clear import clear
+
+clear()
 
 print('---------------- Sisa Waktu ----------------')
 print()
@@ -20,7 +22,7 @@ print('Masukkan Tanggal (dengan Angka)')
 tglTujuan = int(input('Tanggal : '))
 bulanTujuan = int(input('Bulan   : '))
 tahunTujuan = int(input('Tahun   : '))
-os.system('clear')
+clear()
 
 tujuan = date(tahunTujuan,bulanTujuan,tglTujuan)
 today = date.today()

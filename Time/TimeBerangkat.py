@@ -1,6 +1,7 @@
 import os, sys, time, datetime
-os.system('clear')
+from clear import clear
 
+clear()
 print('----------- Jam untuk kuliah -----------')
 print()
 a = datetime.datetime.now()
