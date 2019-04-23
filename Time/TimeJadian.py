@@ -1,6 +1,6 @@
 import os, sys, time, datetime
 from datetime import date
-from clear import clear
+from myfunc import clear, enterinp
 
 clear()
 
@@ -27,4 +27,4 @@ print(('%.2f' % bulan)," Bulan")
 print(lamaHari.days," Hari")
 print(jam," Jam")
 print()
-os.system('read -p "Press enter to exit"') #linux
+enterinp()

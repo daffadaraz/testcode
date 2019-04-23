@@ -1,6 +1,6 @@
 import os, sys, time,datetime
 from datetime import date
-from clear import clear
+from myfunc import clear
 
 clear()
 

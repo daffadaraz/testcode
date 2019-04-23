@@ -1,5 +1,5 @@
 import os, sys, time, datetime
-from clear import clear
+from myfunc import clear
 
 clear()
 print('----------- Jam untuk kuliah -----------')
