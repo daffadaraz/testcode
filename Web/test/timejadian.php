@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
-<title>Home</title>
-<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="index.css"/>
+<title>time</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="timejadian.css"/>
 <link href="https://fonts.googleapis.com/css?family=Fugaz+One&display=swap" rel="stylesheet">
+
 
 <script id="applicationScript">
 ///////////////////////////////////////
@@ -1676,21 +1676,28 @@ var Application = function() {
 window.application = new Application();
 </script>
 </head>
-<body>
-	<div id="Home">
-		<svg class="Rectangle_1">
-			<rect fill="rgba(104,129,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="100vw" height="25vh">
-			</rect>
-		</svg>
-		<div id="Dapapepe">
-			<span>Daffa Daraz</span>
-		</div>
-		<div id="time">
-			<a href=timejadian.php>Daffa dan Ratu</a>
-		</div>
-		<div id="camera">
-			<a href=camera.html>Camera</a>
-		</div>
+<body align=center>
+<div id="time">
+	<svg class="Rectangle_3">
+		<rect fill="rgba(104,129,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_3" rx="0" ry="0" x="0" y="0" width="100vw" height="25vh">
+		</rect>
+	</svg>
+	<div id="Dapapepe">
+		<span>Dapapepe</span>
 	</div>
+	<a href="/">
+		<svg class="Polygon_1" viewBox="0 0 80 69">
+			<path fill="rgba(104,129,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Polygon_1" d="M 39.99999618530273 0 L 80 69 L 0 69 Z">
+			</path>
+		</svg>
+	</a>
+	<div id="test">
+		<span>
+            <?PHP
+                echo shell_exec("python3 TimeJadian.py");
+            ?>
+        </span>
+	</div>
+</div>
 </body>
 </html>
